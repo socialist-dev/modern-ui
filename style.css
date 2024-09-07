@@ -1,0 +1,159 @@
+/* @import url(toggle-theme.css); */
+
+
+.black-theme {
+    background-color: #000;
+    color: #fff;
+}
+.light-theme {
+    background-color: #f1f1f1;
+    color: #000;
+}
+.light-theme--fog {
+    background-color: #ffffe4;
+    color: #000;
+}
+
+
+.card {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+}
+.card--column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.card--row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.card--border {
+    border: 0.5px solid #333333;
+}
+.card--border-rds {
+    border-radius: 2rem;
+}
+.card--gap {
+    gap: 0.25rem;
+}
+.card--right {
+    text-align: right;
+}
+.card--left {
+    text-align: left;
+}
+
+/* Button */
+.btn--cta {
+    padding: clamp(15px, 5vw, 25px);
+}
+.btn--secondary {
+    padding: clamp(5px, 2.5vw, 10px);
+}
+.btn-circle {
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.btn--white-border {
+    border: 2px solid #fff;
+}
+.btn--modern-border {
+    /* border: 2px solid rgba( 255, 255, 255, 0.15); */
+    border: 0.5px solid #333333;
+}
+
+.btn--transparent-hv:hover {
+    background: rgba( 255, 255, 255, 0 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    cursor: pointer;
+}
+.btn--fill-hv:hover {
+    background: #fff;
+    cursor: pointer;
+    fill: #000;
+}
+.btn--scale-hv:hover {
+    transform: scale(1.1);
+}
+
+
+.test-img {
+    background-color: #000;
+    /* background-image: url(src/img/96c41d290b7a0cd5d80ceebc3aaf9d15.gif);
+    background-size: cover;
+    background-position: center; */
+}
+
+
+/* Image */
+.avatar {
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    clip-path: circle();
+}
+.rd-avatar {
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: clamp(1rem, 1.5rem, 2rem);
+}
+.img--circle {
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    clip-path: circle();
+}
+.img--rd-square {
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: clamp(1rem, 1.5rem, 2rem);
+}
+
+/* Size */
+.size-xs {
+    width: 1rem;
+    height: 1rem;
+}
+.size-sm {
+    width: 2rem;
+    height: 2rem;  
+}
+.size-lg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.size-2x {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.size-3x {
+    width: 6rem;
+    height: 6rem;
+}
+.size-4x {
+    width: 8rem;
+    height: 8rem;
+}
+.size-5x {
+    width: 10rem;
+    height: 10rem;
+}
+.size-50 {
+    width: 50%;
+    height: auto;
+}
+.size-100 {
+    width: 100%;
+    height: auto;
+}
+  
+  
